@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact Us - ShopMate</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">ShopMate</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#">Cart (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section: Contact Us -->
+    <main class="main">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>If you have any questions, feedback, or need support, feel free to contact us using the information below. We’d love to hear from you!</p>
+            
+            <h3>Email</h3>
+            <p><a href="mailto:support@shopmate.com">support@shopmate.com</a></p>
+
+            <h3>Phone</h3>
+            <p>+1 (555) 123-4567</p>
+
+            <h3>Address</h3>
+            <p>123 ShopMate Street, E-Commerce City, EC 54321</p>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ShopMate. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
