@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>About Us - ShopMate</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <h1 class="logo">ShopMate</h1>
+            <nav class="nav">
+                <ul>
+                    <li><a href="{{ url_for('index') }}">Home</a></li>
+                    <li><a href="{{ url_for('about') }}">About</a></li>
+                    <li><a href="{{ url_for('contact') }}">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart">
+                <a href="#">Cart (0)</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Section: About Us -->
+    <main class="main">
+        <div class="container">
+            <h2>About ShopMate</h2>
+            <p>At ShopMate, we aim to provide our customers with the best online shopping experience. We offer a wide range of products at competitive prices, ensuring quality and satisfaction with every purchase.</p>
+            <p>Our mission is to make online shopping convenient and enjoyable by offering top-notch customer service, a user-friendly website, and fast shipping. Whether you're looking for the latest gadgets, fashionable clothing, or home essentials, ShopMate has got you covered!</p>
+            <p>Founded in 2024, ShopMate is committed to excellence and innovation in the e-commerce industry.</p>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ShopMate. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
